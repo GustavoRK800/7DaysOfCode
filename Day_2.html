@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 - Pergunta e Resposta</title>
+
+    <link rel="stylesheet" href="aluramidi-curso-arquivos-iniciais/aluramidi-curso-arquivos-iniciais/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="perguntas">
+
+                <p class="titulo">Mensagem de Alerta</p>
+
+                <form id="respostas">
+
+                    <!-- Nome do usúario -->
+                    <label for="seuNome">Qual o é o seu nome?</label>
+                    <input id="seuNome" type="text" class="input-padrao" required placeholder="Fulano">
+
+                    <!-- Sua idade -->
+                    <label for="suaIdade">Quantos anos você tem?</label>
+                    <input id="suaIdade" type="number" class="input-padrao" required placeholder="20">
+
+                    <!-- A linguagem de programação que ele está estudando agora -->
+                    <label for="suaLinguagem">Qual linguagem de programação você está estudando?</label>
+                    <input id="suaLinguagem" type="text" class="input-padrao" required placeholder="JavaScript">
+
+                    <button type="submit" class="enviar-formulario">Enviar Resposta</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
